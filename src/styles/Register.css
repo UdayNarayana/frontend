@@ -1,0 +1,45 @@
+.register-form-container{
+    padding: 1em;
+    margin-top: 1%;
+    margin-bottom: 2em;
+    margin-left: 35%;
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    box-shadow: rgba(88, 106, 222,0.3) 0px 3px 8px;
+}
+
+.register-text{
+    text-align: center;
+    transform: translateY(0.3em);
+}
+
+.birthday-label-container,
+.email-label-container,
+.password-label-container,
+.mobileNumber-label-container,
+.gender-label-container{
+    margin-top:1em
+}
+
+.register-btn-container{
+    margin-top: 1.5em;
+}
+
+.register-btn{
+    height:2.5em;
+    width: 15em;
+    border-radius: 0.4em;
+    outline: none;
+    border: none;
+    background-color: rgb(88, 106, 222);
+    color: #fff;
+}
+
+.register-btn:hover{
+    cursor: pointer;
+    background-color: rgb(60, 81, 215);
+}

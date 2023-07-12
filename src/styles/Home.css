@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.product-img img {
+    width: 11em;
+    height: 10em;
+}
+
+.product-section{
+    width:50%;
+    padding: 1em;
+    margin-left: 20em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    border-radius: 1em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product-info{
+    margin-left: 5em;
+}
+
+.product-info p,button{
+    margin-top: 1em;
+}
+
+.disabled-add-btn {
+    width: 7em;
+    height: 2.4em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: rgb(222, 187, 48);
+    color: #fff;
+}
+
+.add-cart-btn {
+    width: 7em;
+    height: 2.4em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: rgb(222, 187, 48);
+    color: #fff;
+}
+
+.product-name{
+    font-weight: bolder;
+}
+
+.add-cart-btn:hover {
+    cursor: pointer;
+    background-color: rgb(195, 163, 35);
+}
+
+.disabled-add-btn:hover {
+    cursor: not-allowed;
+    background-color: rgb(195, 163, 35);
+}
+
+.in-stock {
+    color: rgb(23, 165, 23);
+}
+
+.out-of-stock {
+    color: rgb(179, 37, 37);
+}
